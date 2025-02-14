@@ -11,3 +11,22 @@ nginxとさくらクラウドのAppRunの色々実験用
 |`OAUTH2_CLIENT_ID`| OAuth2のクライアントID|
 |`OAUTH2_COOKIE_SECRET`| OAuth2Proxyの手順で作成したシークレット |
 |`OAUTH2_CLIENT_SECRET` | OAuth2のクライアントシークレット|
+
+
+## usage
+### イメージのビルド
+```bash
+bash build.sh
+```
+
+引数を渡すとバージョンタグとして解釈します
+
+### イメージの実行
+```bash
+bash run.sh
+```
+
+### コンテナレジストリへのアップロード
+```bash
+bash push.sh
+```
