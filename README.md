@@ -7,3 +7,7 @@ nginxとさくらクラウドのAppRunの色々実験用
 |name|value|
 |--|--|
 |`CONTAINER_REGISTORY`| イメージをpushするコンテナレジストリのホスト名 |
+|`OAUTH2_REDIRECT_URL`| OAuth2のコールバックURL `${hostname}/oauth2/callback`になるはず|
+|`OAUTH2_CLIENT_ID`| OAuth2のクライアントID|
+|`OAUTH2_COOKIE_SECRET`| OAuth2Proxyの手順で作成したシークレット |
+|`OAUTH2_CLIENT_SECRET` | OAuth2のクライアントシークレット|
