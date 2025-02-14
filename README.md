@@ -1,5 +1,5 @@
 # aureole
-nginxの色々実験用
+nginxとさくらクラウドのAppRunの色々実験用
 
 ## setup
 `.env`に環境変数を設定してください
